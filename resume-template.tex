@@ -1,0 +1,113 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[no-math]{fontspec}
+\usepackage{parskip}
+\usepackage[top=0.3in, bottom=0.3in, left=0.4in, right=0.4in]{geometry}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt plus 1pt minus 1pt}{3pt plus 1pt minus 1pt}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+\usepackage{setspace}
+\setstretch{1.2}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{mydarkblue}{rgb}{0.1, 0.2, 0.4}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=mydarkblue,
+  linkcolor=black,
+  citecolor=black
+}
+\usepackage[most]{tcolorbox}
+\tcbset{
+  unit4box/.style={
+    enhanced,
+    boxrule=0pt,
+    frame hidden,
+    colback=white,
+    borderline west={1pt}{0pt}{gray!40},
+    sharp corners,
+    boxsep=4pt,
+    left=7pt,
+    right=0pt,
+    top=1pt,
+    bottom=1pt,
+  }
+}
+\setmainfont{Arial}[SmallCapsFont = {Latin Modern Roman}]
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE \textbf{Fernando Antonio Simoes Tona}}\\[4pt]
+  {\Large {Software Engineer | Full Stack Developer}}\\[2pt]
+  \textbf{Software Developer with a background in classical music and C++/C\# engineering}\\
+
+  \href{mailto:XXXXXXXX@XXXXXXX.com}{\faEnvelope\ XXXXXXXX@XXXXXXX.com} \quad | \quad
+  \faMobile\ +XXX XXXXXXXX (redacted)\\[4pt]
+
+  \href{https://github.com/fernandotonacoder}{\faGithub\ github.com/fernandotonacoder} \quad | \quad
+  \href{https://www.linkedin.com/in/fernandotona/}{\faLinkedin\ linkedin.com/in/fernandotona}
+\end{center}
+
+\section{Skills}
+\textbf{Languages:} C++, .NET/C\#, SQL, TypeScript, JavaScript, Java, C\\[3pt]
+\textbf{Technologies \& Tools:} CPPUnit, MSTest, XUnit, NUnit, PostgreSQL, SQL Server, CosmosDB, Git, Azure/Scrum, Agile, TDD, CI/CD, React, Visual Studio, Visual Studio Code, IntelliJ IDEA, Rider\\[3pt]
+\textbf{Music skills:} Sibelius, Musescore, Audacity, Music Notation, Composition, Music Arrangements
+
+\section{Work Experience}
+\begin{tcolorbox}[unit4box]
+\textbf{Associate Engineer, \href{https://www.unit4.com/}{Unit4}} \hfill \textit{Portugal (Remote), Mar 2023 -- Present}\\
+Maintained backend code in C++ and .NET/C\# for payroll and HCM features in both desktop (Windows) and cloud-based (Azure) ERP systems. Wrote automated tests (CPPUnit, NUnit, XUnit, MSTest). Designed APIs, fixed critical bugs, and occasionally contributed to the frontend.
+
+\begin{itemize}[leftmargin=*, itemsep=1.5pt]
+  \item Designed RESTful APIs powering core payroll operations.
+  \item Increased test coverage by 30\%+ in legacy and modern codebases.
+  \item Resolved 30+ production bugs in ERPx/ERP7, improving stability.
+  \item Fixed SonarQube/Mend vulnerabilities to reduce security risk.
+  \item Contributed to Payroll Navigator for configurable workflows.
+\end{itemize}
+\vspace{3pt}
+
+\textbf{Graduate Engineer, \href{https://www.unit4.com/}{Unit4}} \hfill \textit{Portugal (Remote), Nov 2022 -- Feb 2023}\\
+Built a full-stack web application during Unit4 Academy internship. Strengthened technical foundations and collaboration skills in a fast-paced, team-oriented setting.\end{tcolorbox}
+
+\textbf{Teacher of Classical Guitar \& Chamber Music,} \hfill \textit{Oliveira do Bairro, Portugal, Sep 2010 -- Jul 2025}\\
+\textbf{\href{https://escolartes.com}{Conservatório de Música da Bairrada}}\\
+Provided instruction in classical guitar and chamber music at an official Portuguese conservatory. Taught individually and in ensembles. Composed and arranged music for institutional projects.
+
+\textbf{Freelance Musician, \href{https://linktr.ee/fernandotona}{fernandotona}}\\
+Professional classical guitarist and composer with 15+ years of experience. Perform, compose, and arrange music, with deep knowledge of music notation and ensemble collaboration.
+
+\section{Education}
+\vspace{3pt}
+\textbf{\href{https://guiadoscursos.uab.pt/en/cursos/licenciatura-em-engenharia-informatica/}{Universidade Aberta}}: Bachelor’s Degree in Computer Science\\[4pt]
+\textbf{\href{https://codeforall.com/}{Code for All}}: Full Stack Software Developer (on-site bootcamp)\\[4pt]
+\textbf{\href{https://www.ua.pt/en/curso/184/}{Universidade de Aveiro}}: Master in Music Education (Classical Guitar and Chamber Music)\\[4pt]
+\textbf{\href{https://www.ua.pt/en/curso/40/}{Universidade de Aveiro}}: Bachelor’s Degree in Music: Classical Guitar
+
+\section{Languages}
+{\small
+\textbf{English}: Full professional \quad | \quad
+\textbf{French}: Elementary \quad | \quad
+\textbf{Portuguese}: Native (European) \quad | \quad
+\textbf{Spanish}: Native (LATAM)
+}
+\section{Projects}
+{\small
+\textbf{\href{https://ko-fi.com/s/b781636926}{Classical Guitar Composition with Sibelius}}\\
+Original score professionally typeset and engraved in Sibelius. \href{https://ko-fi.com/s/b781636926}{Available for sale on Ko-fi.}
+
+\textbf{Personal Portfolio (in progress)}\\
+For upcoming full-stack and backend software projects, please visit: \href{https://github.com/fernandotonacoder}{github.com/fernandotonacoder}
+}
+
+\section{Additional Information}
+{\small
+\textbf{Citizenship}: Portuguese (EU) \quad
+\textbf{Location}: Open to relocation or remote (currently based in Europe) \quad
+}
+\end{document}
