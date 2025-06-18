@@ -20,4 +20,4 @@
 To compile the template:
 
 1. Install any LaTeX distribution (TeX Live, MikTeX, etc.) or just import it to [overleaf](https://www.overleaf.com/).
-2. Compile `resume.tex` using your preferred LaTeX editor or with `xelatex`: <pre> ```bash xelatex resume.tex ``` </pre>
+2. Compile `resume.tex` using your preferred LaTeX editor or with `xelatex`. Example: `xelatex resume-template.tex`.
