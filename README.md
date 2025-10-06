@@ -1,3 +1,6 @@
+[![Follow on GitHub](https://img.shields.io/github/followers/fernandotonacoder?label=Follow&style=social)](https://github.com/fernandotonacoder)
+[![Website](https://img.shields.io/badge/visit-website-green?logo=gnometerminal)](https://fernandotonacoder.github.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/fernandotona/)
 # Resume template written with LaTeX
 
 🎓 A clean and customizable one-page LaTeX resume template for developers and tech professionals.
