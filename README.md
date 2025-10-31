@@ -16,7 +16,7 @@
 
 ## Preview
 
-📄 [Anonymized Template Resume (PDF)](./Anonymized-sample.pdf)
+📄 [Anonymized Template Resume (PDF)](./resume-template-anonymized.pdf)
 
 ## Getting Started
 
