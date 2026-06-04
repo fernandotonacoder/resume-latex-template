@@ -66,15 +66,14 @@ The output `main.pdf` will be generated in the same directory.
 1. Import the project ([main.tex](./main.tex) file) to [Overleaf](https://www.overleaf.com/).
 2. Go to **Menu → Compiler** and select **XeLaTeX** (the default `pdflatex` will fail).
 3. Compile and preview directly in the browser.
-## Author
 
-**Fernando Tona**  
-[Website](https://fernandotonacoder.github.io) • [LinkedIn](https://www.linkedin.com/in/fernandotona/) • [GitHub](https://github.com/fernandotonacoder)
+---
 
 <div align="center">
 
 **⭐ Star this repo if you find it useful!**
 
 Made with ❤️ by Fernando Tona
+[Website](https://fernandotonacoder.github.io) • [LinkedIn](https://www.linkedin.com/in/fernandotona/) • [GitHub](https://github.com/fernandotonacoder)
 
 </div>
