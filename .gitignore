@@ -32,4 +32,4 @@ auto/
 
 # PDF output
 *.pdf
-!resume-template-anonymized.pdf
+!main.pdf

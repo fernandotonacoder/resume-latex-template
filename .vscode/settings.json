@@ -1,0 +1,16 @@
+{
+  "latex-workshop.latex.recipe.default": "xelatex",
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "xelatex",
+      "tools": ["xelatex", "xelatex"]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "xelatex",
+      "command": "xelatex",
+      "args": ["-interaction=nonstopmode", "-synctex=1", "%DOC%"]
+    }
+  ]
+}
